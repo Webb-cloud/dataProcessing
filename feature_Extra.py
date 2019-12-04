@@ -13,7 +13,7 @@ from sklearn.naive_bayes import MultinomialNB
 import pandas as pd
 import jieba
 import xlrd
-
+"""特征工程"""
 
 def dictvec():
     # 字典抽取API,对字典进行特征抽取
@@ -132,4 +132,3 @@ def naviebayes():
 
 if __name__ == "__main__":
      read_data()
-

@@ -1,5 +1,5 @@
 import numpy as np
-
+"""关于numpy的一些测试"""
 t1 = np.array([1,2,3])
 print(t1.reshape(3,1))
 #t/0会出现inf

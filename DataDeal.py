@@ -1,5 +1,6 @@
 # coding=utf-8
-
+"""泰迪杯数据分析比赛"""
+"""涉及数据读取，数据处理和可视化"""
 import matplotlib
 #matplotlib.use('WX')
 #matplotlib.rcParams['backend'] = 'WX'

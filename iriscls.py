@@ -1,3 +1,4 @@
+"""鸢尾花数据处理"""
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer

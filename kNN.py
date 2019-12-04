@@ -1,4 +1,5 @@
 # coding=utf-8
+"""KNN函数"""
 import numpy
 import operator
 from numpy import *
