@@ -1,3 +1,4 @@
+"""特征工程，对数据进行处理使其符合算法需要"""
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -13,7 +14,7 @@ from sklearn.naive_bayes import MultinomialNB
 import pandas as pd
 import jieba
 import xlrd
-"""特征工程"""
+
 
 def dictvec():
     # 字典抽取API,对字典进行特征抽取
