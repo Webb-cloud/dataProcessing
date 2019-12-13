@@ -60,15 +60,15 @@ for i in confirmdata1:
 print(re_result1)  #复杂分割,不同的分隔符中间用“\n”进行间隔
 
 #判断分割后的文献是否在文献库中，不在的删除
-# import xlwt
-# xls = xlwt.Workbook()
-# # 设置字体格式
-# Font0 = xlwt.Font()
-# Font0.name = "Times New Roman"
-# Font0.colour_index = 2
-# style0 = xlwt.XFStyle()
-# # 实例化一个工作表，名叫Sheet1
-# sht1 = xls.add_sheet('Sheet1')
+import xlwt
+xls = xlwt.Workbook()
+#设置字体格式
+Font0 = xlwt.Font()
+Font0.name = "Times New Roman"
+Font0.colour_index = 2
+style0 = xlwt.XFStyle()
+#实例化一个工作表，名叫Sheet1
+sht1 = xls.add_sheet('Sheet1')
 
 finaldata = [ [0] * 30 for i in range(1500)]
 #print(finaldata)
@@ -84,23 +84,6 @@ for i in re_result1:
                 continue
     a = a+1
     b = 0
-
-
-#按索引删除二维数组中的0
-# for p in range(len(finaldata)):
-#     for q in range(len(finaldata[p])):
-#         if finaldata[p][q] == 0:
-#             del finaldata[p][q]
-#             q = q-1
-#         else:
-#             continue
-# for i in finaldata:
-#     for p in i:
-#         if p == 0:
-#             delete = finaldata.pop(p)
-#         else:
-#             continue
-# print(finaldata[0])
 
 # coding:utf-8
 import xlsxwriter
